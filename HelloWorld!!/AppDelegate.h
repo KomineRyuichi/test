@@ -1,0 +1,17 @@
+//
+//  AppDelegate.h
+//  HelloWorld!!
+//
+//  Created by PCK-135-087 on 2016/07/06.
+//  Copyright © 2016年 PCK-135-087. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+
+@end
+
