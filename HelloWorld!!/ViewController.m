@@ -18,10 +18,16 @@
     [super viewDidLoad];
     
     UILabel *label = [[UILabel alloc] init];
-    label.text = @"Hello World！";
+    label.text = @"Hello World!";
     [label sizeToFit];
     label.center = self.view.center;
     [self.view addSubview:label];
+    
+    UILabel *label2 = [[UILabel alloc] init];
+    label2.text = @"Hello World!!!!!!!!!!!!";
+    [label2 sizeToFit];
+    label2.center = self.view.center;
+    [self.view addSubview:label2];
 
 }
 
