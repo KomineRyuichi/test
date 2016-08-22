@@ -28,7 +28,12 @@
     [label2 sizeToFit];
     label2.center = self.view.center;
     [self.view addSubview:label2];
-
+    
+    UILabel *label3 = [[UILabel alloc] init];
+    label3.text = @"リモートできた";
+    [label3 sizeToFit];
+    label3.center = self.view.center;
+    [self.view addSubview:label3];
 }
 
 - (void)didReceiveMemoryWarning {
