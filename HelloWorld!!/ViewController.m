@@ -24,7 +24,7 @@
     [self.view addSubview:label];
     
     UILabel *label2 = [[UILabel alloc] init];
-    label2.text = @"Hello World!!!!!!!!!!!!";
+    label2.text = @"sub";
     [label2 sizeToFit];
     label2.center = self.view.center;
     [self.view addSubview:label2];
