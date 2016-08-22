@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ViewController2;
+
+@protocol ViewController2Delegate <NSObject>
+
+- (void)aiueo:(NSString *)text;
+
+@end
 
 @interface ViewController2 : UIViewController
+
+@property (nonatomic, weak) id <ViewController2Delegate> delegate;
 
 @end

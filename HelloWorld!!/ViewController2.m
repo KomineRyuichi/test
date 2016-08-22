@@ -8,6 +8,22 @@
 
 #import "ViewController2.h"
 
+@interface ViewController2()
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+
+@end
+
 @implementation ViewController2
+
+
+- (IBAction)tapped:(id)sender {
+    
+    [self.delegate aiueo:_textField.text];
+    
+    
+    [self.navigationController popViewControllerAnimated:YES];
+    
+}
 
 @end
