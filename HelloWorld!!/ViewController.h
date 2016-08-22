@@ -10,11 +10,5 @@
 
 @interface ViewController : UIViewController
 
-@property NSString *a;
-
-- (void)abc;
-
-+ (void)cba;
-
 @end
 
